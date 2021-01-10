@@ -25,7 +25,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include <ctype.h>
 #include <math.h>
 
-#include "../../ref_shared.h"
+#include <client/refresh/ref_shared.h>
 
 #include <stdlib.h>
 #include <string.h>

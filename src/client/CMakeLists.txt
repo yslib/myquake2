@@ -30,5 +30,5 @@ add_subdirectory(refresh)
 
 add_library(${MODULE_NAME} ${MODULE_SHARED_OR_STATIC})
 target_sources(${MODULE_NAME} PRIVATE ${MODULE_SRC})
-target_link_libraries(${MODULE_NAME} PRIVATE common server SDL2::SDL2main SDL2::SDL2 game unix)
+target_link_libraries(${MODULE_NAME} PRIVATE common server SDL2::SDL2main SDL2::SDL2 unix)
 target_include_directories(${MODULE_NAME} PUBLIC ${MODULE_INCLUDE_DIR})

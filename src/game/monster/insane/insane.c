@@ -24,7 +24,7 @@
  * =======================================================================
  */
 
-#include "../../header/local.h"
+#include <game/local.h>
 #include "insane.h"
 
 #define SPAWNFLAG_CRUSIFIED		8

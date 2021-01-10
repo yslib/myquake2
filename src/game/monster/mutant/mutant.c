@@ -24,7 +24,7 @@
  * =======================================================================
  */
 
-#include "../../header/local.h"
+#include <game/local.h>
 #include "mutant.h"
 
 static int sound_swing;

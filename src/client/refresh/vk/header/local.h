@@ -28,7 +28,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include <SDL2/SDL_vulkan.h>
 
 
-#include "../../ref_shared.h"
+#include <client/refresh/ref_shared.h>
 #include "../volk/volk.h"
 #include "qvk.h"
 

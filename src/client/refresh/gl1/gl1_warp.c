@@ -48,7 +48,7 @@ unsigned int index_tex = 0;
 char *suf[6] = {"rt", "bk", "lf", "ft", "up", "dn"};
 
 float r_turbsin[] = {
-#include "../constants/warpsin.h"
+#include <client/refresh/constants/warpsin.h>
 };
 
 vec3_t skyclip[6] = {

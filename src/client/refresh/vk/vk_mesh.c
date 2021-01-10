@@ -33,7 +33,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #define NUMVERTEXNORMALS	162
 
 static float r_avertexnormals[NUMVERTEXNORMALS][3] = {
-#include "../constants/anorms.h"
+#include <client/refresh/constants/anorms.h>
 };
 
 typedef float vec4_t[4];
@@ -46,7 +46,7 @@ float	shadelight[3];
 // precalculated dot products for quantized angles
 #define SHADEDOT_QUANT 16
 static float r_avertexnormal_dots[SHADEDOT_QUANT][256] = {
-#include "../constants/anormtab.h"
+#include <client/refresh/constants/anormtab.h>
 };
 
 float	*shadedots = r_avertexnormal_dots[0];

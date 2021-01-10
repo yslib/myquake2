@@ -15,5 +15,4 @@ string(REGEX REPLACE "amd64" "x86_64" ARCH "${YQ2ARCH}")
 string(REGEX REPLACE "i.86" "i386" ARCH "${ARCH}")
 string(REGEX REPLACE "^arm.*" "arm" ARCH "${ARCH}")
 add_definitions(-DYQ2ARCH="${ARCH}")
-
 add_subdirectory(src)

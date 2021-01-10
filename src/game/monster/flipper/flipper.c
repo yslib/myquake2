@@ -24,7 +24,7 @@
  * =======================================================================
  */
 
-#include "../../header/local.h"
+#include <game/local.h>
 #include "flipper.h"
 
 #define FLIPPER_RUN_SPEED 24

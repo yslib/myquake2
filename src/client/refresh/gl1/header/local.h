@@ -31,7 +31,7 @@
 #include <ctype.h>
 #include <math.h>
 
-#include "../../ref_shared.h"
+#include <client/refresh/ref_shared.h>
 #include "qgl.h"
 
 
